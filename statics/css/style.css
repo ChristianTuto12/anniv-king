@@ -1,0 +1,36 @@
+body{
+	color:blue;
+background: #333;
+}
+
+.main{
+	min-height: 100vh;
+	max-width: 100%;
+	overflow: hidden;
+		/* background-color: red; */
+
+}
+.is{
+	content: '\f39f';
+}
+
+@media (max-width: 360px){
+	.main{
+		min-height: 800px;
+	}
+	.text{
+		height: 300px;
+	}
+
+}
+
+
+.example {
+
+  opacity:0;
+  perspective:200px;
+}
+.example span {
+  transform: rotateY(-90deg);
+  opacity:0;
+}

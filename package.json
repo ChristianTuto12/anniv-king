@@ -1,0 +1,17 @@
+{
+  "name": "anniv-king",
+  "version": "1.0.0",
+  "description": "project pour anniversaire de mon amie king",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "keywords": [
+    "king",
+    "friend",
+    "christian"
+  ],
+  "author": "christian fare",
+  "license": "ISC"
+}
